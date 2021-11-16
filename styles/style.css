@@ -95,6 +95,11 @@
   font-family: arial, helvetica, sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .hero {
   background-color: #e0dede;
 }
@@ -222,5 +227,10 @@
 .hero__container--img {
   height: 100%;
   width: 100%;
+}
+
+#map {
+  height: 650px;
+  background: lightcyan;
 }
 /*# sourceMappingURL=style.css.map */
