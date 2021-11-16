@@ -22,7 +22,7 @@
 }
 
 .navbar__logo {
-  color: #c2a214;
+  color: #e7c83e;
   cursor: pointer;
   text-decoration: none;
   font-size: 4rem;
@@ -82,7 +82,7 @@
 }
 
 .navbar__menu #button:hover {
-  background-color: #c2a214;
+  background-color: #e7c83e;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -92,7 +92,7 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial, helvetica, sans-serif;
 }
 
 .hero {
@@ -153,7 +153,7 @@
 }
 
 .hero__container--left h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #313131;
 }
 
@@ -205,7 +205,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: #c2a214;
+  background: #e7c83e;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   border-radius: 4px;
