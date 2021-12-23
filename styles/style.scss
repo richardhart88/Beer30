@@ -27,6 +27,7 @@ body {
     z-index: 1;
     width: 100%;
     max-width: 1200px;
+    min-height: 100vh;
     padding-right: 24px;
     padding-left: 24px;
     
@@ -125,6 +126,16 @@ body {
 }
 
 #map {
-  height: 650px;
+  height: 400px;
   background: lightcyan;
 }
+
+#show, #hide {
+  text-decoration: none;
+  color: rgb(121, 121, 121);
+}
+
+// #breweries {
+//   height: 300px;
+//   background: rgb(172, 172, 172);
+// }
