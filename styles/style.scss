@@ -126,8 +126,7 @@ body {
 }
 
 #map {
-  height: 400px;
-  background: lightcyan;
+  height: 600px;
 }
 
 #show, #hide {
@@ -139,3 +138,8 @@ body {
 //   height: 300px;
 //   background: rgb(172, 172, 172);
 // }
+
+form {
+  padding: 20px;
+  margin: 20px;
+}
