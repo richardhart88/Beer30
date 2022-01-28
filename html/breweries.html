@@ -32,19 +32,35 @@
   <!-- map placeholder -->
   <div id="map"></div>
 
-  <!-- button to change background color -->
-  <button class="colorBtn" id="button">Change the background!</button>
+  <div class="container" id="listOfLocations" style="width:900px">
+    <h2 style="color: rgb(231, 231, 231)">Search for Breweries</h2> 
+    <h4 style="color: rgb(231, 231, 231)">Use the search field below to filter by city or brewery name!</h4>
+    <br>
+    <div id="searchWrapper">
+      <input 
+        type="text" 
+        name="searchBar" 
+        id="searchBar" 
+        placeholder="Search for a brewery" 
+        class="form-control">
+    </div>
+    <br>
+    <ul class="list-group" id="result"></ul>
+  </div>
+  <br><br>
 
   <hr>
   <!-- area to hold list of breweries -->
-  <div id="breweries"></div>
-
-
+  <select id="breweries-dropdown" name="breweries"></select>
+  <br><br>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
   <script src="../app/script.js"></script>
 </body>
 </html>

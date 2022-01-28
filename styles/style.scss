@@ -10,6 +10,7 @@
 body {
   margin: 0;
   padding: 0;
+  background: $dark;
 }
 
 // hero section css
@@ -127,6 +128,7 @@ body {
 
 #map {
   height: 600px;
+  margin: 10px;
 }
 
 #show, #hide {
@@ -142,4 +144,21 @@ body {
 form {
   padding: 20px;
   margin: 20px;
+}
+
+ul {
+  li {
+    list-style-type: none;
+    background:rgb(223, 223, 223);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    a {
+      color: rgb(17, 17, 17);
+    }
+  }
+}
+
+#listOfLocations {
+  text-align: center;
 }
