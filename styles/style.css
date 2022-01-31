@@ -246,6 +246,18 @@ form {
   margin: 20px;
 }
 
+input {
+  margin-left: 5px;
+}
+
+a {
+  color: #111111;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 ul li {
   list-style-type: none;
   background: #dfdfdf;
@@ -254,11 +266,7 @@ ul li {
   border-radius: 5px;
 }
 
-ul li a {
-  color: #111111;
-}
-
-#listOfLocations {
-  text-align: center;
+label {
+  color: #979797;
 }
 /*# sourceMappingURL=style.css.map */

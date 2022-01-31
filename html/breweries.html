@@ -14,7 +14,7 @@
 </head>
 <body>
   <nav class="navbar">
-    <a href="#" class="navbar__logo">
+    <a href="./index.html" class="navbar__logo">
       <i class="fas fa-beer"></i>
     </a>
     <div class="navbar__bars">
@@ -23,26 +23,21 @@
     <div class="navbar__menu">
       <a href="./index.html" class="navbar__menu--links">Home</a>
       <a href="./breweries.html" class="navbar__menu--links">Breweries</a>
-      <a href="#" class="navbar__menu--links">About</a>
       <a href="./signup.html" class="navbar__menu--links" id="button">Sign Up</a>
-      <a href="#" class="navbar__menu--links" id="button">Log In</a>
+      <a href="./signup.html" class="navbar__menu--links" id="button">Log In</a>
     </div>
   </nav>
 
   <!-- map placeholder -->
   <div id="map"></div>
 
-  <div class="container" id="listOfLocations" style="width:900px">
-    <h2 style="color: rgb(231, 231, 231)">Search for Breweries</h2> 
-    <h4 style="color: rgb(231, 231, 231)">Use the search field below to filter by city or brewery name!</h4>
+  <!-- search field-->
+  <div class="container" style="width:900px">
+    <h2 align="center" style="color: rgb(231, 231, 231)">Search for Breweries</h2> 
+    <h4 align="center" style="color: rgb(231, 231, 231)">Use the search field below to filter by city or brewery name!</h4>
     <br>
     <div id="searchWrapper">
-      <input 
-        type="text" 
-        name="searchBar" 
-        id="searchBar" 
-        placeholder="Search for a brewery" 
-        class="form-control">
+      <input type="text" name="searchBar" id="searchBar" placeholder="Search for a brewery" class="form-control">
     </div>
     <br>
     <ul class="list-group" id="result"></ul>
